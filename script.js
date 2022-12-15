@@ -8,7 +8,7 @@ function updateData(){
   xhr.open("POST", url);
 
   xhr.setRequestHeader("Content-Type", "application/json");
-  xhr.setRequestHeader("Authorization", "Bearer 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");
+  xhr.setRequestHeader("Authorization", "Bearer sk-reYYNsWjRnHJNsGQZ");
 
   xhr.onreadystatechange = function () {
      if (xhr.readyState === 4) {
