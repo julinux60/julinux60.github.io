@@ -1,0 +1,37 @@
+textarea {
+  width: 80%;
+  height: 70%;
+  padding: 20px;
+  font-family: 'Quattrocento', serif;
+  font-weight: 500;
+  font-size: 1.1em;
+  background-color: #1B1E22;
+  border: none;
+  border-left: solid #555 1px;
+  resize: none;
+}
+
+textarea:focus{
+  font-weight: 500;
+  outline: none;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+}
+
+body{
+  font-family: 'Quattrocento', serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1B1E22;
+}
+
+h1{
+  font-family: 'Merriweather', serif;
+}
